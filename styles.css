@@ -1,0 +1,189 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #F7F3EE;
+}
+
+@import url('https://googleapis.com');
+
+h1, h2, h3, h4 {
+  font-family: 'Playfair Display', serif;
+  font-weight: 400;
+}
+
+p, span, li, a {
+  font-family: 'Plus Jakarta Sans', sans-serif;
+  font-weight: 400;
+}
+
+/*Estilos Inicio*/
+header {
+  height: 72px;
+  padding: 20px 140px;
+  border-bottom: 1px solid rgb(219, 219, 219);
+}
+
+.navbar {
+  margin-left: 240px;
+}
+
+/*barra busqueda*/
+.form-control {
+  width: 162px;
+  height: 36px;
+  background-color: #E9E6E4;
+  border-radius: 20px;
+  margin-left: 300px;
+}
+
+/* Tamaño fijo de las imagenes*/
+.img-hero-custom {
+    width: 420px;
+    height: 560px;
+    object-fit: cover;
+    border-radius: 20px;
+}
+
+/*Botones ver menu completo y visitanos*/
+.botones-inicio {
+  position: relative;
+  top: -100px;
+  left: 50px;
+}
+
+/* Contenedor de navegación */
+.custom-nav-container {
+    position: relative;
+    display: flex;
+    gap: 30px;
+    margin-top: 40px;
+    top: -100px;
+    left: 50px;
+}
+
+/* Estilo botones circulares */
+.btn-control-custom {
+    background: transparent;
+    border: 1px solid #ccc;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: 0.3s;
+}
+
+.btn-control-custom:hover {
+    background-color: #f8f9fa;
+}
+
+/*Cambiar color y tamaño del icono < >*/
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+  filter: invert(1);
+  width: 15px;
+}
+
+/* Indicadores */
+.custom-indicators {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.indicator {
+    width: 10px;
+    height: 10px;
+    background-color: #ccc;
+    border-radius: 50%;
+    border: none;
+    transition: all 0.4s ease;
+}
+
+/* La línea activa (marrón) */
+.indicator.active {
+    width: 40px;
+    background-color: #b87333; /* Color marrón */
+    border-radius: 5px;
+}
+
+.text-carrouser {
+  position: relative;
+  left: -100px;
+}
+
+.text-carrouser small {
+  font-size: 15px;
+  font-weight: 500;
+  color: #b8732a;
+}
+.text-carrouser h1 {
+  font-size: 72px;
+  font-weight: 600;
+}
+
+.text-carrouser p {
+  font-size: 18px;
+  color: #7a7553;
+}
+
+
+/*PAGINA MENU*/
+.barra-menu,
+.barra-contacto {
+  width: 100%;
+  height: 268px;
+  background-color: #FFFFFF;
+}
+
+.productos {
+  grid-template-columns: repeat(3, 1fr);
+}
+
+.productos .card {
+  width: 395px;
+  margin: 10px;
+  border-radius: 20px;
+}
+
+.card-img-top {
+  width: 100%;
+  height: 250px;
+  border-radius: 20px 20px 0 0 ;
+}
+
+
+
+
+
+/*Esitilos boton whatsapp*/
+
+.whatsapp-float {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    width: 60px;
+    height: 60px;
+    background-color: #25d366;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+    z-index: 1000;
+    transition: transform 0.3s ease;
+}
+
+.whatsapp-float:hover {
+    transform: scale(1.1); 
+}
+
+.whatsapp-float img {
+    width: 30px;
+    height: 30px;
+}
