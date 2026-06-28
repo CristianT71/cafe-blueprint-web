@@ -21,10 +21,10 @@ Aplicar conceptos de maquetación, sistema de grid y componentes de Bootstrap en
 ## Vistas del proyecto
 
 ### Inicio  
-![Captura de pantalla Inicio](Captura%20de%20pantalla%202026-06-28%20125547.png)
+![Captura de pantalla Inicio](assets/screenshot/Captura%20de%20pantalla%202026-06-28%20125547.png)
 
 ### Menú  
-![Captura de pantalla Menú](Captura%20de%20pantalla%202026-06-28%20125635.png)
+![Captura de pantalla Menú](assets/screenshot/Captura%20de%20pantalla%202026-06-28%20125635.png)
 
 ---
 
